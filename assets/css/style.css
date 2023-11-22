@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #181717;
+	font-size: 16px;
+}
+img{
+    max-width:100%;
+    vertical-align: middle;
+}
+ul{
+    list-style: none;
+}
+.area{
+    width: 1000px;
+    margin: 0 auto;
+}
+.nav{
+	background-color: #d8b9ff;
+}
+.head{
+    overflow:hidden;
+}
+.logo {
+	width: 250px;
+	margin-right: 30px;
+	float: left;
+}
+.menu {
+	float: right;
+	width: 720px;
+}
+.menu ul {
+	text-align: left;
+	margin-top: 72px;
+}
+.menu ul li {
+	display: inline-block;
+}
+.menu ul li a {
+	font-weight: bold;
+	font-size: 22px;
+	padding: 10px 15px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-radius: 7px;
+}
+.menu ul li a:hover, .trending-poetry a:hover, .about-menu ul li a:hover, .contact-form input[type="submit"]:hover, .about-contents a:hover, .new-contents a:hover, .popular-books a:hover{
+    background-color: #F6F4F3;
+}
+.banner {
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+.demo-poetry, .books{
+    overflow: hidden;
+}
+.demo-poetry h2{
+	font-size: 18px;
+	text-align: left;
+	margin-bottom: 20px;
+	margin-top:50px;
+}
+.trending-poetry, .popular-books {
+	background-color: #A679CA;
+	float: left;
+	width: 320px;
+	margin-right: 20px;
+	padding: 15px;
+}
+.trending-poetry:last-child, .popular-books:last-child{
+    margin-right: 0;
+}
+.trending-poetry h4, .about-content h4, .about-menu h4, .contact-form h4, .contact-info h4, .main-story h4 {
+	font-size: 18px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+.trending-poetry p, .about-content p, .popular-books p, .main-story p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 16px;
+    text-align: justify;
+}
+.trending-poetry a, .popular-books a, .about-contents a, .new-contents a{
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #e1c4ff;
+	margin-bottom: 10px;
+	border-radius: 7px;
+}
+.top{
+    margin-top:10px;
+}
+.about{
+    overflow:hidden;
+}
+.about-content {
+	margin-top: 100px;
+	width: 650px;
+	margin-right: 0px;
+	float: left;
+	padding: 0 10px;
+}
+.about-content p{
+	font-size: 18px;
+}
+.about-menu {
+	margin-top: 100px;
+	float: right;
+	width: 320px;
+}
+.about-menu ul li {
+	border-bottom: 1px solid #333;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+.about-menu ul li a{
+	font-size: 20px;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 270px;
+	padding-left: 5px;
+}
+.about-menu ul li:last-child{
+	border-bottom: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.vid {
+	overflow: hidden;
+	margin-top: 30px;
+}
+.video1 {
+	float: left;
+	width: 380px;
+	background-color: #A679CA;
+	margin-right: 100px;
+	border-bottom-right-radius: 12px;
+	border-top-right-radius: 12px;
+}
+.video-section1 {
+	padding-left: 20px;
+	width: 320px;
+}
+.video-section1 h4{
+	padding-top:20px;
+	padding-bottom: 20px;
+	font-size: 18px;
+}
+.video-section1 video{
+	width:100%;
+}
+.video-section1 p{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.video2 {
+	float: left;
+	width: 380px;
+	background-color: #A679CA;
+	border-bottom-right-radius: 12px;
+	border-top-right-radius: 12px;
+}
+.video-section2 {
+	padding-left: 20px;
+	width: 320px;
+}
+.video-section2 h4{
+	padding-top:20px;
+	padding-bottom: 20px;
+	font-size: 18px;
+}
+.video-section2 video{
+	width:100%;
+}
+.video-section2 p{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.banner{
+	background-image: url(../img/banner.jpg);
+	height: 500px;
+	background-size: cover;
+	background-position: center;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.banner h4 {
+	color: #134468;
+	font-size: 27px;
+	text-align: center;
+	padding-top: 34px;
+}
+.page-banner {
+	background-image: url(../img/banner1.jpg);
+	height: 500px;
+	background-size: cover;
+	background-position: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.page-banner h4 {
+	color: #d8dee3;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 200px;
+}
+.contact{
+    overflow: hidden;
+	margin-top: 100px;
+}
+.contact-form {
+	width: 500px;
+	margin-right: 0px;
+	float: left;
+	padding: 0 10px;
+}
+.contact-form input, .contact-form textarea {
+	font-size: 18px;
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 10px;
+	margin-top: 5px;
+}
+.contact-info {
+	float: right;
+	width: 370px;
+}
+.contact-info p{
+    font-size: 30px;
+	color: #A679CA;
+	font-weight: Bold;
+}
+.contact-info a{
+	font-size: 25px;
+	text-decoration: underline;
+}
+.contact-info i{
+	font-size: 40px;
+	padding-top: 28px;
+	padding-right: 15px;
+	color:#A679CA;
+	line-height: 52px;
+}
+.map {
+	margin-top: 100px;
+}
+.map iframe{
+    width:100%
+}
+.video-link{
+    margin-top:100px;
+}
+.video-link iframe{
+    width:100%;
+}
+.stories.all .trending-stories {
+	width: 235px;
+	margin-bottom: 30px;
+}
+.stories.all .trending-stories:nth-child(4), .stories.all .trending-stories:nth-child(8){
+    margin-right:0;
+}
+.full-stories{
+	overflow: hidden;
+}
+.storypic img {
+	margin-bottom: 1px;
+	float: right;
+	width: 610px;
+	margin-left: 12px;
+	margin-top: 55px;
+}
+.main-story{
+	margin-bottom: 50px;
+}
+.navigation.bar{
+	overflow: hidden;
+}
+.navigation.bar .about-menu{
+	float:left;
+	margin-bottom:50px;
+}
+.footer-area{
+	background-color: #d8b9ff;
+}
+.footer-area p {
+	color: #1d1c1c;
+	font-size: 18px;
+	margin-top: 50px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.islamic-blog, .new-blog{
+	overflow: hidden;
+	margin-top:100px;
+	margin-bottom:100px;
+}
+.about-contents, .new-contents{
+	width:500px;
+	float: left;
+	background-color: #A679CA;
+	border-top-left-radius: 14px;
+	border-bottom-left-radius: 14px;
+}
+.about-contents h2, .new-contents h2{
+	font-size: 24px;
+	padding: 30px 0 30px 10px;
+	color:#000000;	
+}
+.about-contents p {
+	font-size: 16px;
+	text-align: justify;
+	padding-left: 10px;
+	padding-right: 165px;
+	line-height: 24px;
+	padding-bottom: 40px;
+}
+.about-contents .iblog {
+	margin-left: 10px;
+	margin-bottom: 26px;
+}
+.new-contents .nblog{
+	margin-left: 10px;
+	margin-bottom: 37px;
+}
+.about-img{
+	float: right;
+	width:500px;
+}
+.new-contents p{
+	font-size: 16px;
+	text-align: justify;
+	padding-left: 10px;
+	padding-right: 165px;
+	line-height: 24px;
+	padding-bottom: 100px;
+}
+.area .pb{
+	padding: 50px 0 30px 0;
+}
+.popular-books{
+	border-radius: 8px;
+	margin-bottom: 50px;
+}
+.popular-books h3{
+	font-size: 22px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.popular-books h4{
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+.popular-books p{
+	font-size: 18px;
+	word-spacing: 1px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+

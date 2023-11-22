@@ -1,0 +1,157 @@
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .area{
+        width: 970px;
+    }
+    .about-content {
+        margin-right: 0px;
+        margin-left: 0px;
+        padding: 0 10px;
+    }
+    .contact-form {
+        margin-right: 0px;
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .area{
+        width: 750px;
+    }
+    .head{
+        width:750px;
+    }
+    .logo {
+        width: 200px;
+        margin-right: 0px;
+    }
+    .menu {
+        width: 550px;
+    }
+    .menu ul li a {
+        font-weight: bold;
+        font-size: 22px;
+        padding: 10px;
+        margin-right: 10px;
+        margin-left: 14px;
+    }
+    .page-banner {
+        width: 750px;
+    }
+    .trending-stories, .popular-books {
+        width: 236px;
+    }
+    .about-content {
+        width: 430px;
+    }
+    .stories.all .trending-stories {
+        width: 172px;
+        margin-bottom: 30px;
+    }
+    .contact-info {
+        padding: 0px 20px;
+    }
+    .contact-form {
+        width: 380px;
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .area{
+        width: 350px;
+    }
+    head{
+        width:350px;
+    }
+    .logo {
+        width: 100px;
+        margin-right: 0px;
+    }
+    .menu {
+        width: 250px;
+    }
+    .menu ul {
+        margin-top: 10px;
+    }
+    .menu ul li a {
+        font-size: 8px;
+        padding: 8px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .banner {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .page-banner {
+        background-image: url(../img/backimage2.jpg);
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .page-banner h4 {
+        font-size: 15px;
+        padding-top: 93px;
+    }
+    .trending-stories, .popular-books {
+        width: 350px;
+        padding: 10px;
+    }
+    .trending-stories h4, .about-content h4, .about-menu h4, .contact-form h4, .contact-info h4, .popular-books h4, .main-story h4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .trending-stories p, .about-content p, .popular-books p, .main-story p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    .trending-stories a, .popular-books a {
+        padding: 6px 15px;
+
+    }
+    .stories.all .trending-stories {
+        width: 350px;
+    }
+    .about-content {
+        margin-top: 30px;
+        width: 350px;
+    }
+    .about-menu {
+        margin-top: 30px;
+        width: 350px;
+        padding: 10px;
+    }
+    .about-menu ul li a {
+        font-size: 18px;
+        padding-right: 345px;
+        padding-left: 5px;
+    }
+    .contact-form {
+        width: 350px;
+    }
+    .contact-form input, .contact-form textarea {
+        font-size: 15px;
+    }
+    .contact-info {
+        width: 350px;
+        padding: 15px;
+    }
+    .contact-info ul li {
+        font-size: 16px;
+    }
+    .map {
+        margin-top: 30px;
+    }
+    .video-link {
+        margin-top: 30px;
+    }
+    .footer p {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+}
